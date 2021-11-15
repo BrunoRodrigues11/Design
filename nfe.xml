@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<nfeProc versao="3.10">
+  <NFe>
+    <infNFe Id="NFe33160500333019000150550000000382921947944521" versao="3.10">
+      <ide>
+        <cUF>35</cUF>
+        <cNF>94794452</cNF>
+        <natOp>VENDA F/E</natOp>
+        <indPag>0</indPag>
+        <mod>55</mod>
+        <serie>0</serie>
+        <nNF>38292</nNF>
+        <dhEmi>2016-05-31T00:00:00-03:00</dhEmi>
+        <dhSaiEnt>2021-10-18T15:39:15-03:00</dhSaiEnt>
+        <tpNF>1</tpNF>
+        <idDest>2</idDest>
+        <cMunFG>3304557</cMunFG>
+        <tpImp>1</tpImp>
+        <tpEmis>1</tpEmis>
+        <cDV>1</cDV>
+        <tpAmb>1</tpAmb>
+        <finNFe>1</finNFe>
+        <indFinal>1</indFinal>
+        <indPres>1</indPres>
+        <procEmi>0</procEmi>
+        <verProc>3.10</verProc>
+      </ide>
+      <emit>
+        <CNPJ>00333019000150</CNPJ>
+        <xNome>ProtoTech LTDA</xNome>
+        <xFant>ProtoTech</xFant>
+        <enderEmit>
+          <xLgr>RUA DO SOL</xLgr>
+          <nro>138</nro>
+          <xBairro>BARTH</xBairro>
+          <cMun>18200000</cMun>
+          <xMun>ITAPETININGA</xMun>
+          <UF>SP</UF>
+          <CEP>18205000</CEP>
+          <cPais>1058</cPais>
+          <xPais>BRASIL</xPais>
+          <fone>1512345678</fone>
+        </enderEmit>
+        <IE>85682938</IE>
+        <CRT>2</CRT>
+      </emit>
+      <dest>
+        <CPF>123123123123</CPF>
+        <xNome>JOSE DAS COUVES</xNome>
+        <enderDest>
+          <xLgr>RUA PRINCESA IZABEL</xLgr>
+          <nro>92</nro>
+          <xBairro>ALVORADA</xBairro>
+          <cMun>3106705</cMun>
+          <xMun>BETIM</xMun>
+          <UF>MG</UF>
+          <CEP>32687058</CEP>
+          <cPais>1058</cPais>
+          <xPais>BRASIL</xPais>
+          <fone>35317845</fone>
+        </enderDest>
+        <indIEDest>2</indIEDest>
+        <email>@hehe.com.br</email>
+      </dest>
+      <det nItem="1">
+        <prod>
+          <cProd>1120526P20</cProd>
+          <cEAN>9986350009317</cEAN>
+          <xProd>PNEU 205/55R16 91W PHANTM (PN19507)</xProd>
+          <NCM>40111000</NCM>
+          <CFOP>6404</CFOP>
+          <uCom>UN</uCom>
+          <qCom>1.00</qCom>
+          <vUnCom>346.57</vUnCom>
+          <vProd>346.57</vProd>
+          <cEANTrib>9986350009317</cEANTrib>
+          <uTrib>UN</uTrib>
+          <qTrib>1.00</qTrib>
+          <vUnTrib>346.57</vUnTrib>
+          <indTot>1</indTot>
+        </prod>
+        <imposto>
+          <ICMS>
+            <ICMS60>
+              <orig>0</orig>
+              <CST>60</CST>
+              <vBCSTRet>346.57</vBCSTRet>
+              <vICMSSTRet>0.00</vICMSSTRet>
+            </ICMS60>
+          </ICMS>
+          <PIS>
+            <PISAliq>
+              <CST>01</CST>
+              <vBC>346.57</vBC>
+              <pPIS>1.65</pPIS>
+              <vPIS>5.72</vPIS>
+            </PISAliq>
+          </PIS>
+          <COFINS>
+            <COFINSAliq>
+              <CST>01</CST>
+              <vBC>346.57</vBC>
+              <pCOFINS>7.60</pCOFINS>
+              <vCOFINS>26.34</vCOFINS>
+            </COFINSAliq>
+          </COFINS>
+        </imposto>
+      </det>
+      <total>
+        <ICMSTot>
+          <vBC>0.00</vBC>
+          <vICMS>0.00</vICMS>
+          <vICMSDeson>0.00</vICMSDeson>
+          <vBCST>0.00</vBCST>
+          <vST>0.00</vST>
+          <vProd>346.57</vProd>
+          <vFrete>0.00</vFrete>
+          <vSeg>0.00</vSeg>
+          <vDesc>0.00</vDesc>
+          <vII>0.00</vII>
+          <vIPI>0.00</vIPI>
+          <vPIS>5.72</vPIS>
+          <vCOFINS>26.34</vCOFINS>
+          <vOutro>0.00</vOutro>
+          <vNF>346.57</vNF>
+          <vTotTrib>0.00</vTotTrib>
+        </ICMSTot>
+      </total>
+      <transp>
+        <modFrete>0</modFrete>
+        <transporta>
+          <CNPJ>34028316000294</CNPJ>
+          <xNome>EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS</xNome>
+          <IE>81613524</IE>
+          <xEnder>AV PRESIDENTE VARGAS 3077</xEnder>
+          <xMun>RIO DE JANEIRO</xMun>
+          <UF>RJ</UF>
+        </transporta>
+        <vol>
+          <qVol>1</qVol>
+          <esp>PNEU</esp>
+          <marca>PIRELLI</marca>
+          <nVol>1</nVol>
+        </vol>
+      </transp>
+      <cobr/>
+      <infAdic>
+        <infCpl>VALOR APROXIMADO DOS TRIBUTOS R$ 130,55 FONTE IBPT. IMPOSTO RETIDO POR SUBSTITUICAO TRIBUTARIA CONFORME RICMS-RJ,LIVRO II PROCON-RJ RUA DA AJUDA, 05 SUBSOLO - CENTRO - TEL 151 CODECON - RUA DA ALFANDEGA, 8 TERREO - CENTRO - RJ. - ALERJ - TEL 08002827060</infCpl>
+      </infAdic>
+    </infNFe>
+    <Signature>
+      <SignedInfo>
+        <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+        <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+        <Reference URI="#NFe33160500333019000150550000000382921947944521">
+          <Transforms>
+            <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+            <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+          </Transforms>
+          <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+          <DigestValue>kWGw/UdKxiZ5mhRV4B6NgVXGM7w=</DigestValue>
+        </Reference>
+      </SignedInfo>
+      <SignatureValue>IsWN2a98EOTMbjvg2Ab4oKIKuBxLhpZhY8n2HCg0sQrBQgK/NFBQ49IbdFrgQdanTRPdxiH6H7iV5HDA756AY5HeoSqRQ7NC929GOWU3ZIo56QoeGrJgiFq1O6SaD8DZO890elY/vqORGBLA5C1GDjUfxUoUexh04BkoWjexK9h2GKpc2ErOs3JFL9DBBaI/TiPAKGNdmV/VhWlcchVVr03y4ENp3Dwf/lhjbeiSTHoILN8h1MGm55WyOAOIdOVYd8s4NeIBLY1ffTMdJlCIJ6/asux6MUQhxUVPfbw+rZrxPm8A+Ul5ZR7dxa3GmXDslp1/vSbYt7uK+lddvZcfRQ==</SignatureValue>
+      <KeyInfo>
+        <X509Data>
+          <X509Certificate>MIIIUzCCBjugAwIBAgIQX/P0/Fh8xZMF5JNa6wow5jANBgkqhkiG9w0BAQsFADB4MQswCQYDVQQGEwJCUjETMBEGA1UEChMKSUNQLUJyYXNpbDE2MDQGA1UECxMtU2VjcmV0YXJpYSBkYSBSZWNlaXRhIEZlZGVyYWwgZG8gQnJhc2lsIC0gUkZCMRwwGgYDVQQDExNBQyBDZXJ0aXNpZ24gUkZCIEc0MB4XDTE0MDMxNDAwMDAwMFoXDTE3MDMxMjIzNTk1OVowgf4xCzAJBgNVBAYTAkJSMRMwEQYDVQQKFApJQ1AtQnJhc2lsMQswCQYDVQQIEwJSTjEXMBUGA1UEBxQOUklPIERFIEpBTkVJUk8xNjA0BgNVBAsULVNlY3JldGFyaWEgZGEgUmVjZWl0YSBGZWRlcmFsIGRvIEJyYXNpbCAtIFJGQjEWMBQGA1UECxQNUkZCIGUtQ05QSiBBMzEtMCsGA1UECxQkQXV0ZW50aWNhZG8gcG9yIEFSIENlcnRpZmlxdWUgT25saW5lMTUwMwYDVQQDEyxQSVQgU1RPUCBBViBCUkFTSUwgUE5FVVMgTFREQTowMDMzMzAxOTAwMDE1MDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMRZtzeaze9wtSy9fH9deNU8ukK4m3KhGaKp4lUZ0q6nqvYfXCl3mDsuhX4JOAdQ/kS0smjhohn/8uQkKv7ffwHgNQDU7yb7P2iEwEfKoldyU1yRVo895g54qZFo5OwtPAbc7YK+56RNMjGQlGNHC2r0nSwtIQdgJc4CTBuVSoyiBVNrk12yzSLZ1iY/iWwmBuBjZs53EPhP7zqVVX4ipU/HX9Su1QEvVOI/2IPFZI7wPDwWrn1+JkECoXtCG2m9YbYHi/i1xzt21zupeF7A8WXyWep04nCB+sZtbgjNpRoeuQQktlZl4ME+XEkqIWecOleP1h83gFgEDraM3s/WRS0CAwEAAaOCA1AwggNMMIG1BgNVHREEga0wgaqgPQYFYEwBAwSgNAQyMTUwNDE5NTA0MDIzNTMyNzcwMDAwMDAwMDAwMDAwMDAwMDAwMDIzOTM3OTA3SUZQUkqgIAYFYEwBAwKgFwQVTklDT0xFVFRBIEJSSUxMQU5USU5PoBkGBWBMAQMDoBAEDjAwMzMzMDE5MDAwMTUwoBcGBWBMAQMHoA4EDDAwMDAwMDAwMDAwMIETbmJAcG5ldW1hbmlhLmNvbS5icjAJBgNVHRMEAjAAMB8GA1UdIwQYMBaAFC6R6tZt5bJZgtw4hSl2NBZWPNA+MA4GA1UdDwEB/wQEAwIF4DB/BgNVHSAEeDB2MHQGBmBMAQIDBjBqMGgGCCsGAQUFBwIBFlxodHRwOi8vaWNwLWJyYXNpbC5jZXJ0aXNpZ24uY29tLmJyL3JlcG9zaXRvcmlvL2RwYy9BQ19DZXJ0aXNpZ25fUkZCL0RQQ19BQ19DZXJ0aXNpZ25fUkZCLnBkZjCCARYGA1UdHwSCAQ0wggEJMFegVaBThlFodHRwOi8vaWNwLWJyYXNpbC5jZXJ0aXNpZ24uY29tLmJyL3JlcG9zaXRvcmlvL2xjci9BQ0NlcnRpc2lnblJGQkc0L0xhdGVzdENSTC5jcmwwVqBUoFKGUGh0dHA6Ly9pY3AtYnJhc2lsLm91dHJhbGNyLmNvbS5ici9yZXBvc2l0b3Jpby9sY3IvQUNDZXJ0aXNpZ25SRkJHNC9MYXRlc3RDUkwuY3JsMFagVKBShlBodHRwOi8vcmVwb3NpdG9yaW8uaWNwYnJhc2lsLmdvdi5ici9sY3IvQ2VydGlzaWduL0FDQ2VydGlzaWduUkZCRzQvTGF0ZXN0Q1JMLmNybDAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQwgZsGCCsGAQUFBwEBBIGOMIGLMF8GCCsGAQUFBzAChlNodHRwOi8vaWNwLWJyYXNpbC5jZXJ0aXNpZ24uY29tLmJyL3JlcG9zaXRvcmlvL2NlcnRpZmljYWRvcy9BQ19DZXJ0aXNpZ25fUkZCX0c0LnA3YzAoBggrBgEFBQcwAYYcaHR0cDovL29jc3AuY2VydGlzaWduLmNvbS5icjANBgkqhkiG9w0BAQsFAAOCAgEAO6jHSfC5hcQ4go65X2vRNnSBTT5Lh50qI+JaIRMNevOdVNPyoqq9at8u/IHiqKJPMbAVqMsQl3wVmA/BYZL76gVqmiDrxGzLdHwffTyuX4hgq8Ld4diObHH3fM0ip2pBFLPzMcFFIxQ5GQQt8xjrA7ltOHVJ65RoE0XwncZxQ/0tY9Ai7HbDg5ErEDRcM3exJ5qvL+n43qpHUP++Y3l0Scpaz5lSYhv1L5hj4mvN/JfBk1nJN8mk5vwjdZ5OIfYeWR3FXLyhXuhezBrrbVPBt4zTm8ksfJW5OPbAWlhc5mvoCuvUPGVa1BtO21WHdp6nm3KFtdNZmsKCArei0D/tXdufr1Tf2clLePpBpfP4OFymBrlBF5MZx8SFKZlIH5pmKORM92WdXtt8Kokrt38nydFlCG4F/Ok+dFH1Zi0Qw/yxnOH37hDVwm9VpXE6Q+IaIodBq8+yy402Djy1BZ97hlHUBl3c2+5+CTftMltq3YJ96n//Munj0lfcNbVRCI5cbnAdVAcTb4lHQwdTHrtay4ys+iooKVGyds2KogJtN69CaDIWW3tOb6bpwrPVFuTdxvZanYdvYyhV8ZFaqjil+PK28y5lM7JGNnZbhDN7wLoF7Xkj8+VCr7YvDuwrbwhqIV10S0Tvxj1n6qf+g/QkhydqKPL1D24s204aXsW7skY=</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+    </Signature>
+  </NFe>
+  <protNFe versao="3.10">
+    <infProt>
+      <tpAmb>1</tpAmb>
+      <verAplic>SVRS201605230958</verAplic>
+      <chNFe>33160500333019000150550000000382921947944521</chNFe>
+      <dhRecbto>2016-05-31T15:39:47-03:00</dhRecbto>
+      <nProt>333160070971725</nProt>
+      <digVal>kWGw/UdKxiZ5mhRV4B6NgVXGM7w=</digVal>
+      <cStat>100</cStat>
+      <xMotivo>Autorizado o uso da NF-e</xMotivo>
+    </infProt>
+  </protNFe>
+</nfeProc>
